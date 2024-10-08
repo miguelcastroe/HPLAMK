@@ -75,7 +75,7 @@ header {
 
 .word-item h2 {
     font-size: 1.5em;
-    font-weight: 300; /* Updated to light weight */
+    font-weight: 300; /* Light weight */
     color: #8a8a8a;
 }
 
@@ -88,9 +88,9 @@ header {
 }
 
 .arrow {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #8a8a8a;
-    font-weight: 100; /* Thinner arrow styling */
+    font-weight: 100; /* Thinner arrow */
 }
 
 @media (max-width: 768px) {
