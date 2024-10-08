@@ -1,0 +1,71 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Serif', sans-serif;
+    color: #000;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 0.9em;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.project h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 1.5em;
+    }
+
+    .project {
+        padding: 10px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
